@@ -18,8 +18,10 @@ public class Basetest implements Framework_constant
 	{ 
 		System.setProperty(chrome_keys,chrome_value);
 	    WebDriver driver=new ChromeDriver();
+	    //lakshmisagar
 	    driver.manage().window().maximize();
 	    driver.get(base_url);
+	    //123456789
 	    driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	    }
 	@AfterMethod
